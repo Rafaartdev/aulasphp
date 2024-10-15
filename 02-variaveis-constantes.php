@@ -15,7 +15,7 @@
     $ano = 2024;
     $area = "Back-End";
     
-    // Estamos no programador Web em 2024.
+     //Estamos no programador Web em 2024.
 
     //Saida interpolada (usando aspas duplas)
     echo '<p>Estamos mo $curso em $ano.</p>';
@@ -28,6 +28,11 @@
     //(usando concatenação ).
     echo "<p>" .AUTOR." trabalha na empresa ".EMPRESA. "</p>";
 ?>
+
+<h2>Saida de dados simplificada/direta</h2>
+<p>Estamos no <?=$curso?> em <?=$ano?>.</p>
+<p> <?AUTOR?> trabalha na empresa <?=EMPRESA?></p>
+
 
 
 </body>
