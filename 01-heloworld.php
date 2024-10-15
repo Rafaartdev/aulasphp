@@ -13,7 +13,7 @@
 <?php
 echo "Olá!";
 echo "<p>Ptogradador Web - <p>";
-echo "<p style= 'color:red'>Senac Penha</p>";
+echo "<p stilr='color:red'>Senac Penha</p>";
 
 ?>
     
