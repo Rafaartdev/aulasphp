@@ -12,7 +12,7 @@
     <h2>Declaração e Saida usando echo</h2>
     <?php
     // Variaveis 
-    $curso= "programador Web";
+    $curso= "Programador Web";
     $ano = 2024;
     $area = "Back-End";
     
