@@ -14,7 +14,7 @@
     const NOME = "Chapolin Colorado";
     $idade = 25;
 
-    /*EXIBIR NPO HTMl uma frase da seguinte forma*/
+    /*EXIBIR NO HTMl uma frase da seguinte forma*/
     /* Olá meu nome é Chapolin Colorado e tenho 25 anos.*/
 // Desafios: 
 //O nome deve aparecer em italico e com  cor diferente no texto
@@ -23,8 +23,10 @@
     ?>
     
     <p>Olá! meu nome é <i class="text-danger"><?=NOME?></i> e temho
-     <span class= "bg-warning"><?=$idade?></span>anos.</p>
+     <span class= "bg-warning"><?=$idade?></span> anos.
+    </p>
 
+ 
 
     
 </body>
