@@ -8,7 +8,9 @@
 
 </head>
 
-<body>nomeclienter
+
+<body>
+    
     <div class="container">
         <h1>nome do usuário</h1>
         <?php
@@ -16,18 +18,22 @@
             "nome" => "Chapolin Colorado",
             "cidade"  => "São Paulo",
             "idade" => 21,
-            "Telefone" => ["119874431 , 1155432268"],
+            "telefones" => ["1198744311","1155432268" ],
             "Senha" => "4588"
 
         ];
-        ?>
-        <ol>
-            <li> <?= $nomecliente["nome"] ?> </li>
-            <li> <?=$nomecliente["cidade"]?></li>
+       ?> 
+       <ol>
+            <li> <?= $nomecliente["nome"] ?>  </li>
             <li> <?=$nomecliente["idade"]?></li>
+            <li> <?=$nomecliente["cidade"]?></li>
+            <li> <?=$nomecliente["telefones"]?></li>
+            <li> <?=$nomecliente["Senha"]?></li>
+            
+            
 
-
-
+   
+      
 </ol>
     </div>
 </body>
