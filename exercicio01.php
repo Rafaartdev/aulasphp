@@ -14,7 +14,7 @@
     <div class="container">
         <h1>nome do usuário</h1>
         <?php
-        $nomecliente = [
+        $dados = [
             "nome" => "Chapolin Colorado",
             "cidade"  => "São Paulo",
             "idade" => 21,
@@ -24,16 +24,22 @@
         ];
        ?> 
        <ol>
-            <li> <?= $nomecliente["nome"] ?>  </li>
-            <li> <?=$nomecliente["idade"]?></li>
-            <li> <?=$nomecliente["cidade"]?></li>
-            <li> <?=$nomecliente["telefones"]?></li>
-            <li> <?=$nomecliente["Senha"]?></li>
+            <li> <?=$dados["nome"]?></li>
+            <li> <?=$dados["idade"]?> anos </li>
+            <li> <?=$dados["cidade"]?></li>
+            <li> <?=$dados["telefones"][1]?></li>
             
-            
+            </ol>    
+          <h2>Versão DE SAIDA USANDO ARREYS NUMERICO/IDEXADO </h2>
 
-   
-      
+
+<ol>
+<li>nome: <?=$dados["nome"]?></li>
+<li>idade: <?=$dados["idade"]?></li>
+<li>cidade: <?=$dados["cidade"]?></li>
+<li>telefones:<?=$dados["telefones"][1]?></li>
+
+
 </ol>
     </div>
 </body>
