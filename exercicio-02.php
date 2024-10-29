@@ -12,7 +12,7 @@
         }
 
         li:nth-child(evn) {
-            color: brown;
+            color: green;
         }
     </style>
 </head>
@@ -24,13 +24,13 @@
         <?php
         $meses = ["janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Desembro"];
         ?>
-        <ol>
+        <ol class="list-group list-group-numbered">
 
             <?php
             foreach ($meses as $mes) {
             ?>
 
-                <li><?= $mes ?></li>
+                <li class="list-group-item">A list item><?= $mes ?></li>
 
             <?php } ?>
 
