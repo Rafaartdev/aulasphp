@@ -19,12 +19,17 @@ if( $salario < 500 ){
 $novoSalario = $salario *1.05; //5% 
 }
 ?>
+<?php
 <p>salário antigo: <?=$salario?></p>
 <p>salário reajustado <?=$novoSalario?></p>
 <p> salario antigo: R$ 400 
-  <p>novo salario :R$ </p>
+  <p>novo salario (reajustado) R$  <?=NumberFormatter ($novoSalario, 2, "," ," ") </p>
+  ?>
+  
 </p>
 <hr>
+
+
 
 
 
