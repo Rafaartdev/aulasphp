@@ -67,7 +67,8 @@
        }
     ?>
     <p>Garantia de <?=$garantiaB?> anos.</p>
-
+    
+<?php include "redes-sociais.html" ?>
 
 
 
